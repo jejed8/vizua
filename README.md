@@ -16,7 +16,7 @@ L'expérience est une installation immersive où l'utilisateur joue sur un clavi
 
 
 ## Synoptique
-![synoptique 2](https://github.com/user-attachments/assets/2f1cc33c-ffad-4410-a990-d80f3570d89c)
+![Diagramme sans nom drawio](https://github.com/user-attachments/assets/fb71d4a4-6987-40da-b670-2d7193b85f28)
 
 #### Entrée
 
