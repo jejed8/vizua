@@ -69,6 +69,18 @@ L'expérience est une installation immersive où l'utilisateur joue sur un clavi
 
 **Interaction utilisateur (contrôleurs) ➔ TouchDesigner ➔ Feedback en temps réel.**
 
+### Liste des logiciels
+| Logiciel             | Description Technique                                                                                  |
+|----------------------|--------------------------------------------------------------------------------------------------------|
+| TouchDesigner        | Génère des visuels interactifs et les rend en temps réel dans un environnement VR.                     |
+| DAW (Ableton/Logic)  | Capture, modifie et traite les signaux MIDI/audio pour enrichir l'expérience sonore.                   |
+| PyTorch              | Analyse les caractéristiques du son à l'aide de l'IA et transmet les données interprétées.            |
+| OpenVR               | Permet l'intégration et le rendu stéréoscopique de la scène VR et gère le suivi des mouvements.        |
+| OSC (Open Sound Control) | Protocole utilisé pour transmettre les données d'analyse et de contrôle en temps réel à TouchDesigner. |
+| Oculus Software      | Établit la connexion et le suivi du casque Oculus avec le PC pour une immersion VR optimale.           |
+
+
+
 
 
 
