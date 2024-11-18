@@ -27,10 +27,7 @@ flowchart TD
     n15 --> n17["écouter performance"] & n14
     n14 -- moins de 2min --> n5
     n17 --> n16
-
-
-
-
+```
 
 
 ## Devis
