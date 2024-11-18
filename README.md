@@ -1,3 +1,35 @@
+# Vizua - Planification
+
+[Précédement Wave3D](https://jejed8.github.io/wave3d/)
+
+## Scénario interactif
+
+```mermaid
+    flowchart TD
+ subgraph s1["Spotlight sur clavier, projection éteinte"]
+        n1["Mode veille<br>"]
+  end
+    n1 -- commencer l'interaction --> n2["S'assoir sur le banc (détecteur de pression)"]
+    n2 -- ouverture des lumieres --> n5["Animation de détection"]
+    n5 -- choix --> n4["Mode performance"] & n3["Mode libre"]
+    n4 --> n6["Début chrono 60s"]
+    n3 --> n7["Manipulation de clavier"]
+    n6 --> n8["Manipulation de clavier"]
+    n7 --> n9["Visuel ondes jouées"]
+    n8 --> n10["Visuel ondes jouées"]
+    n9 --> n11["terminer"]
+    n10 --> n12["fin chrono"]
+    n11 --> n14["Si absence d'interactivité"]
+    n11 -- retour mode de sélection --> n5
+    n14 -- 2min et plus --> s1
+    n12 --> n15["terminer"] & n16["recommencer"]
+    n16 --> n6
+    n15 --> n17["écouter performance"] & n14
+    n14 -- moins de 2min --> n5
+    n17 --> n16
+```
+
+
 ## Concept 
 L'expérience est une installation immersive où l'utilisateur joue sur un clavier MIDI et voit des visuels dynamiques se déployer autour de lui en réalité virtuelle. Chaque note déclenche des animations spectaculaires qui réagissent en temps réel, créant un spectacle audiovisuel captivant et interactif.
 
