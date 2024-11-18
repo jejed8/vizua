@@ -10,11 +10,8 @@ L'expérience est une installation immersive où l'utilisateur joue sur un clavi
 
 ## Scénario interactif
 
-```mermaid
-    flowchart TD
-        n1["Mode veille<br>"]
-  end
-    n5 -- choix --> n4["Mode performance"] & n3["Mode libre"]
+flowchart TD
+    n5["début"] -- choix --> n4["Mode performance"] & n3["Mode libre"]
     n4 --> n6["Début chrono 60s"]
     n3 --> n7["Manipulation de clavier"]
     n6 --> n8["Manipulation de clavier"]
@@ -22,15 +19,16 @@ L'expérience est une installation immersive où l'utilisateur joue sur un clavi
     n8 --> n10["Visuel ondes jouées"]
     n9 --> n11["terminer"]
     n10 --> n12["fin chrono"]
-    n11 --> n14["Si absence d'interactivité"]
+    n11 --> n14["retourner aux choix"]
     n11 -- retour mode de sélection --> n5
-    n14 -- 2min et plus --> s1
     n12 --> n15["terminer"] & n16["recommencer"]
     n16 --> n6
     n15 --> n17["écouter performance"] & n14
     n14 -- moins de 2min --> n5
     n17 --> n16
-```
+
+
+
 
 
 ## Devis
