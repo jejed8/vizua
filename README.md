@@ -12,11 +12,8 @@ L'expérience est une installation immersive où l'utilisateur joue sur un clavi
 
 ```mermaid
     flowchart TD
- subgraph s1["Spotlight sur clavier, projection éteinte"]
         n1["Mode veille<br>"]
   end
-    n1 -- commencer l'interaction --> n2["S'assoir sur le banc (détecteur de pression)"]
-    n2 -- ouverture des lumieres --> n5["Animation de détection"]
     n5 -- choix --> n4["Mode performance"] & n3["Mode libre"]
     n4 --> n6["Début chrono 60s"]
     n3 --> n7["Manipulation de clavier"]
