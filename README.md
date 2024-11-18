@@ -2,6 +2,12 @@
 
 [Précédement Wave3D](https://jejed8.github.io/wave3d/)
 
+## Concept 
+L'expérience est une installation immersive où l'utilisateur joue sur un clavier MIDI et voit des visuels dynamiques se déployer autour de lui en réalité virtuelle. Chaque note déclenche des animations spectaculaires qui réagissent en temps réel, créant un spectacle audiovisuel captivant et interactif.
+
+<img width="1710" alt="Screenshot 2024-11-04 at 3 59 05 PM" src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e">
+
+
 ## Scénario interactif
 
 ```mermaid
@@ -29,11 +35,6 @@
     n17 --> n16
 ```
 
-
-## Concept 
-L'expérience est une installation immersive où l'utilisateur joue sur un clavier MIDI et voit des visuels dynamiques se déployer autour de lui en réalité virtuelle. Chaque note déclenche des animations spectaculaires qui réagissent en temps réel, créant un spectacle audiovisuel captivant et interactif.
-
-<img width="1710" alt="Screenshot 2024-11-04 at 3 59 05 PM" src="https://github.com/user-attachments/assets/0d1631bd-a0b8-48c1-8a90-9e10aeeb605e">
 
 ## Devis
 
@@ -110,6 +111,12 @@ L'expérience est une installation immersive où l'utilisateur joue sur un clavi
 | OpenVR               | Permet l'intégration et le rendu stéréoscopique de la scène VR et gère le suivi des mouvements.        |
 | OSC (Open Sound Control) | Protocole utilisé pour transmettre les données d'analyse et de contrôle en temps réel à TouchDesigner. |
 | Oculus Software      | Établit la connexion et le suivi du casque Oculus avec le PC pour une immersion VR optimale.           |
+
+## Plantation
+
+![Desktop - 4](https://github.com/user-attachments/assets/9ed013e4-dcb6-41e3-b014-999a5959998b)
+
+
 
 
 
